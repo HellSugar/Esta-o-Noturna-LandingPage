@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap');
+
+
+:root {
+    --fonte-btnstart: 'Josefin Slab', serif;
+    --cor-btnstart: #d9d9d9;
+    --preto: #000;
+    --hoverbtnstart: #7d3e91;
+    --branco: #fff;
+}
+
+
+.banner-img{
+    min-height: 100vh;
+    background-image: url(../img/banner\ header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(.9px);
+}
+
+.header_content {
+    position: absolute;
+    top: 0;
+    display: flex;
+}
+
+.header_content_textbtn{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header_title {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: 'algerian', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 22.5%;
+}
+
+.header_startbtn {
+    align-self: center;
+    position: absolute;
+    top: 61.5%;
+    left: 38.5%;
+    padding: 4px  62px;
+    text-align: center;
+    line-height: 1.5;
+    background: rgba(243, 241, 241, 0.43);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--preto);  
+    font-size: 25px;
+    font-family: var(--fonte-btnstart);
+}
+
+div.header_content_textbtn a:hover {
+     background-color: var(--hoverbtnstart);
+     color: var(--branco);
+}
